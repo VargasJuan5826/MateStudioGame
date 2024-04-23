@@ -17,13 +17,6 @@ FileOpenOrder/
 ./CMakeLists.txt
 .ue4dependencies
 Samples/*
-FeaturePacks/*
-Templates/*
-
-# Ignore content specific folders
-Content/Development/
-Content/Maps/
-Content/MaterialTemplates/
 
 # Ignore personal workspace vars
 p4config.txt
