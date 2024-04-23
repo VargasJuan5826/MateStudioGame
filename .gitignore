@@ -1,0 +1,55 @@
+*.csproj.*
+*.pdb
+*.db
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.mdb
+obj/
+*.vcxproj
+*.sln
+*-Debug.*
+FileOpenOrder/
+*.xcworkspace
+*.xcodeproj
+./Makefile
+./CMakeLists.txt
+.ue4dependencies
+Samples/*
+FeaturePacks/*
+Templates/*
+
+# Ignore content specific folders
+Content/Development/
+Content/Maps/
+Content/MaterialTemplates/
+
+# Ignore personal workspace vars
+p4config.txt
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Intermediary Files
+*.target.xml
+*.exe.config
+*.exe.manifest
+
+# Ignore project-specific files
+Build/
+DerivedDataCache/
+Binaries/
+Intermediate/
+__pycache__/
+Saved/
+thumbs/
+.vs/*
+.vsconfig
+.idea/*
+Plugins/Developer
+Textures/*
+Windows/*
